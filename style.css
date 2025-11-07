@@ -1,7 +1,7 @@
 
 body {
-background-color: rgb(107, 96, 96);
-color: rgb(228, 217, 217);
+background-color: rgb(0, 0, 0);
+color: rgb(255, 252, 252);
 
 font-family: "Fugaz One", sans-serif;
 margin: 0px;
@@ -11,9 +11,9 @@ margin: 0px;
 header {
 font-size: 50px;
 text-align: center;
-border-bottom:dashed 5px rgb(123, 116, 129);
+border-bottom:dashed 5px rgb(201, 189, 211);
 padding: 30px;
-color: rgb(238, 231, 238);
+color: rgb(255, 255, 255);
 }
 
 h1 {
@@ -24,4 +24,12 @@ padding-left: 30px;
 p {
 font-size: 20px;
 padding-left: 30px;
+}
+
+section{
+    background-color: white;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
 }
